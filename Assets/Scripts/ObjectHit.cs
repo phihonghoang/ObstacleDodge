@@ -18,8 +18,13 @@ public class ObjectHit : MonoBehaviour
     // Moving object has to have a Rigidbody
     private void OnCollisionEnter(Collision other) 
     {
-
-        // Provides access to specific components of the GameObject
-        GetComponent<MeshRenderer>().material.color = Color.black;
+        
+        if (other.gameObject.tag == "Player")
+        {
+            // Provides access to specific components of the GameObject
+            GetComponent<MeshRenderer>().material.color = Color.black;
+            gameObject.tag = "Hit";
+        }
+        
     }
 }
