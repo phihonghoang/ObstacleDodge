@@ -18,5 +18,4 @@ Each time the player collides with an obstacle, the obstacle changes color, and 
 - **Dynamic Obstacles** – Includes flying, rotating, and falling objects to increase difficulty
 - **Collision Feedback** – Obstacles change color upon collision with the player
 - **Score Tracking** – Console logs the number of collisions as the player’s score when the goal is reached
-- **Objective** – Reach the goal with as few collisions as possible
  
