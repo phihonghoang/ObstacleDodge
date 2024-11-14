@@ -1,10 +1,13 @@
-# ObstacleDodge
+# ObstacleDodge (Prototype)
 
-A simple Unity game where the player navigates through an obstacle course and aims to reach the goal without hitting obstacles.
+A Unity-based prototype where the player navigates through an obstacle course filled with various dynamic obstacles. 
+The objective is to avoid collisions and reach the end of the course with as few hits as possible.
 
 ## Game Description
 
-In this game, you control a player character moving through an obstacle course, with the objective of reaching the goal area while avoiding obstacles. If the player collides with an obstacle, the obstacle changes color to indicate contact. The game ends when the player successfully reaches the goal.
+In this prototype, you control a player character through an obstacle course with various challenging elements, including flying, rotating, and falling objects. 
+The goal is to avoid these obstacles and reach the target while minimizing the number of collisions. 
+Each time the player collides with an obstacle, the obstacle changes color, and a hit is recorded. The total number of hits is displayed in the console as the player’s score once they reach the goal.
 
 ## Controls
 
@@ -12,7 +15,8 @@ In this game, you control a player character moving through an obstacle course, 
 
 ## Features
 
-- Obstacles change color upon player contact
-- Simple, intuitive gameplay with a clear objective
-- Minimalist controls and mechanics
+- **Dynamic Obstacles** – Includes flying, rotating, and falling objects to increase difficulty
+- **Collision Feedback** – Obstacles change color upon collision with the player
+- **Score Tracking** – Console logs the number of collisions as the player’s score when the goal is reached
+- **Objective** – Reach the goal with as few collisions as possible
  
