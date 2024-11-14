@@ -22,13 +22,12 @@ public class TriggerBall : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Player")
         {
-            if (ball != null && ball1 != null && ball2 != null && ball3 != null)
-            {
-                ball.SetActive(true);
-                ball1.SetActive(true);
-                ball2.SetActive(true);
-                ball3.SetActive(true);
-            }
+            ball.SetActive(true);
+            ball1.SetActive(true);
+            ball2.SetActive(true);
+            ball3.SetActive(true);
+
+            Destroy(gameObject);
         }
     }
 }

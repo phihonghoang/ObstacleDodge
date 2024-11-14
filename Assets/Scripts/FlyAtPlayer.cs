@@ -8,10 +8,16 @@ public class FlyAtPlayer : MonoBehaviour
     [SerializeField] Transform player;
     Vector3 playerPosition;
 
+    void Awake() 
+    {
+        gameObject.SetActive(false);
+    }
+    
+    // The Start() method is only called when the GameObject is active, 
+    // so it runs only after the object is activated in OnTriggerEnter() (In our use case).
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // exact position of the gameObject, value doesn't change
         playerPosition = player.transform.position;
     }
 
